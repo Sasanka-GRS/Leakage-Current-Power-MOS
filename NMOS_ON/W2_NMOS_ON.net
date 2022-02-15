@@ -151,17 +151,19 @@
 
 Mn drain gate source body nmos W={2*Wmin} L={Lmin} 
 
-Vd 	drain	  1.2	  0
-Vg 	gate	  alim	  0
-Vs 	source	  0		  0
+Vd 	drain	  0     1.2
+Vg 	gate	  alim	0
+Vs 	source	0		  0
 Vb 	body	  0		  0
 
-Vdd alim	  1.2	  0
+Vdd alim	  0
 
 *Definition of type of analysis
 .CONTROL
 let voltage=0
 let Vddbasic=1.2
+set filetype = ascii
+set appendwrite
 while voltage le Vddbasic
   let voltage = voltage + 0.05
   alter Vdd = voltage
@@ -169,7 +171,6 @@ while voltage le Vddbasic
   print abs(V(alim)) V(drain) V(gate) V(source) V(body) I(Vd) I(Vg) I(Vs) I(Vb)
   wrdata W2_NMOS_ON1.txt abs(V(alim)) V(drain) V(gate) V(source) V(body) I(Vd) I(Vg) I(Vs) I(Vb)
   write W2_NMOS_ON.txt abs(V(alim)) V(drain) V(gate) V(source) V(body) I(Vd) I(Vg) I(Vs) I(Vb)
-  set filetype = ascii
 end
 .ENDC
 .END
