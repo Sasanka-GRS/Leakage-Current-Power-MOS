@@ -1,0 +1,40 @@
+Title: *nmos on - w4
+Date: Tue Feb 15 15:58:04  2022
+Plotname: DC transfer characteristic
+Flags: real
+No. Variables: 10
+No. Points: 2
+Variables:
+	0	temp-sweep	temp-sweep
+	1	abs(v(alim))	voltage
+	2	v(drain)	voltage
+	3	v(gate)	voltage
+	4	v(source)	voltage
+	5	v(body)	voltage
+	6	i(i(vd))	current
+	7	i(i(vg))	current
+	8	i(i(vs))	current
+	9	i(i(vb))	current
+Values:
+ 0	3.000000000000000e+01
+	1.199897866613004e+00
+	-1.021333869962036e-04
+	1.199897866613004e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.767254367290860e-07
+	-1.767254367290860e-07
+	-1.046540023559788e-08
+	1.046540018037943e-08
+
+ 1	1.000000000000000e+02
+	1.199877545076759e+00
+	-1.224549232416125e-04
+	1.199877545076759e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.939771412384772e-07
+	-1.939771412384772e-07
+	-2.136611846854774e-08
+	2.136611843720037e-08
+

@@ -1,0 +1,40 @@
+Title: *pmos off - w6
+Date: Tue Feb 15 16:00:38  2022
+Plotname: DC transfer characteristic
+Flags: real
+No. Variables: 10
+No. Points: 2
+Variables:
+	0	temp-sweep	temp-sweep
+	1	abs(v(alim))	voltage
+	2	v(drain)	voltage
+	3	v(gate)	voltage
+	4	v(source)	voltage
+	5	v(body)	voltage
+	6	i(i(vd))	current
+	7	i(i(vg))	current
+	8	i(i(vs))	current
+	9	i(i(vb))	current
+Values:
+ 0	3.000000000000000e+01
+	1.903914405749007e-12
+	0.000000000000000e+00
+	-1.903914405749007e-12
+	0.000000000000000e+00
+	0.000000000000000e+00
+	4.290945720062094e-27
+	0.000000000000000e+00
+	4.290925218688299e-27
+	-9.775660288246926e-27
+
+ 1	1.000000000000000e+02
+	2.329490416573013e-23
+	0.000000000000000e+00
+	-2.329490416573013e-23
+	0.000000000000000e+00
+	0.000000000000000e+00
+	7.518406639890844e-37
+	0.000000000000000e+00
+	8.062822015143585e-37
+	-1.562797473239432e-36
+
